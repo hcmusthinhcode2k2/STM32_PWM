@@ -1,152 +1,91 @@
-#include <gpio.h>
-#include <cortex_m3.h>
-#include <uart.h>
 #include <stm32f103c8t6.h>
+#include <cortex_m3.h>
+#include <gpio.h>
+#include <bitband.h>
+
+#ifndef BIT7
+  #define BIT0          (0x01 << 0)
+  #define BIT1          (0x01 << 1)
+  #define BIT2          (0x01 << 2)
+  #define BIT3          (0x01 << 3)
+  #define BIT4          (0x01 << 4)
+  #define BIT5          (0x01 << 5)
+  #define BIT6          (0x01 << 6)
+  #define BIT7          (0x01 << 7)
+#endif
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+#ifndef BIT15
+  #define BIT8          (0x0001 << 8)
+  #define BIT9          (0x0001 << 9)
+  #define BIT10         (0x0001 << 10)
+  #define BIT11         (0x0001 << 11)
+  #define BIT12         (0x0001 << 12)
+  #define BIT13         (0x0001 << 13)
+  #define BIT14         (0x0001 << 14)
+  #define BIT15         (0x0001 << 15)
+#endif
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
+#ifndef BIT31
+  #define BIT16         (0x000001 << 16)
+  #define BIT17         (0x000001 << 17)
+  #define BIT18         (0x000001 << 18)
+  #define BIT19         (0x000001 << 19)
+  #define BIT20         (0x000001 << 20)
+  #define BIT21         (0x000001 << 21)
+  #define BIT22         (0x000001 << 22)
+  #define BIT23         (0x000001 << 23)
+
+  #define BIT24         (0x00000001 << 24)
+  #define BIT25         (0x00000001 << 25)
+  #define BIT26         (0x00000001 << 26)
+  #define BIT27         (0x00000001 << 27)
+  #define BIT28         (0x00000001 << 28)
+  #define BIT29         (0x00000001 << 29)
+  #define BIT30         (0x00000001 << 30)
+  #define BIT31         (0x00000001 << 31)
+#endif
 
 struct
 {
-  struct
-  {
-    unsigned char MsTick;
-    unsigned char RX;
-  } Event;
-  unsigned long MsTime;
-} System = 
-{
-  .Event = 
-  {
-    .MsTick = 0, 
-    .RX = 0,
-  }, 
-  .MsTime = 0,
-};
+  unsigned char PWMvalue;  //3 bit low is used 
+  unsigned char Index;
+} Led={.PWMvalue=0x05,.Index=0};
 
-struct
-{
-  unsigned char Size;
-  unsigned char TimeOut;
-  unsigned char Buff[32];
-} UART1_RX = {.Size = 0, .TimeOut = 0, };
-
-void SysTick_Handler()          //trigger 1ms
-{
-  System.Event.MsTick = 1;
-  System.MsTime++;
-}
-
-void BaseProcess()
-{
-  if (System.Event.MsTick)
-  {
-    System.Event.MsTick = 0;
-    if (UART1_RX.TimeOut)
-    {
-      UART1_RX.TimeOut++;
-      if (UART1_RX.TimeOut > 10)
-      {
-        UART1_RX.TimeOut = 0;
-        System.Event.RX = 1;
-      }
-    }
-  }
-}
-
-void UART1_IRQHandler()         //chỉ ngắt khi nhận 1 byte
-{
-  unsigned char data = UART1.DR;
-  UART1_RX.TimeOut = 1;
-  if (UART1_RX.Size < 32 && !System.Event.RX)
-  {
-    UART1_RX.Buff[UART1_RX.Size] = data;
-    UART1_RX.Size++;
-  }
-}
-
-void Delay_ms(unsigned long Time)
-{
-  unsigned long now = System.MsTime;
-  while ((System.MsTime - now) < Time)
-    BaseProcess();
-}
-void UART_SendString(const char* str)
-{
-    while (*str)
-    {
-        UART1.DR = *str++; // Gửi từng ký tự của chuỗi qua DR (Data Register)
-        while (!UART1.SR.BITS.TXE); // Chờ đến khi TXE (Transmit Data Register Empty) flag được set
-    }
+void SysTick_Handler()
+{ 
+   if (Led.Index == 0)
+   {
+      GPIOB.ODR.BITS.b12 = !!(Led.PWMvalue & BIT0);
+      STK.LOAD = 8000;   //1ms
+      Led.Index = 1;
+   }
+   else if (Led.Index == 1)
+   {
+      GPIOB.ODR.BITS.b12 = !!(Led.PWMvalue & BIT1);
+      STK.LOAD = 16000;   //2ms
+      Led.Index = 2;
+   }
+   else if (Led.Index == 2)
+   {
+        GPIOB.ODR.BITS.b12 = !!(Led.PWMvalue & BIT2);
+        STK.LOAD = 32000;  //4ms
+        Led.Index = 0;
+   }
+   STK.CTRL.REG = BIT2 | BIT1;
+   STK.VALUE = 0;
+   STK.CTRL.REG = BIT2 | BIT1 | BIT0;
+ 
 }
 void main()
 {
-  *((unsigned long*)(0x40021000 + 0x18)) |= 0x04;       //bật clock cho GPIOA  
-  //UART1-TX
-  GPIOA.CRH.BITS.MODE_9 = 3;     //chân A9 là out put max 50MHz
-  GPIOA.CRH.BITS.CNF_9 = 2;      //chân A9 là af output push-pull
-  //UART1-RX
-  GPIOA.ODR.BITS.b10 = 1;       //chân A10 là pullup
-  GPIOA.CRH.BITS.MODE_10 = 0;    //chân A10 là input
-  GPIOA.CRH.BITS.CNF_10 = 2;     //chân A10 input pullup/pulldown  
-  
-  *((unsigned long*)(0x40021000 + 0x18)) |= 0x4000;       //bật clock cho UART1, clock base = 8MHz
-  UART1.BRR.BITS.MANTISSA = 52;
-  UART1.BRR.BITS.FRACTION = 1;
-  
-  UART1.CR3.BITS.CTSIE = 0;
-  UART1.CR3.BITS.CTSE = 0;
-  UART1.CR3.BITS.RTSE = 0;
-  
-  UART1.CR3.BITS.DMAT = 0;
-  UART1.CR3.BITS.DMAR = 0;
-  
-  UART1.CR3.BITS.SCEN = 0;
-  UART1.CR3.BITS.NACK = 0;
-  
-  UART1.CR3.BITS.HDSEL = 0;
-  
-  UART1.CR3.BITS.IRLP = 0;
-  UART1.CR3.BITS.EIE = 0;
-  
-  UART1.CR2.BITS.LINEN = 0;
-  UART1.CR2.BITS.STOP = 0;      //gửi 1 bit stop
-  UART1.CR2.BITS.CLKEN = 0;
-  UART1.CR2.BITS.CPOL = 0;
-  UART1.CR2.BITS.CPHA = 0;
-  UART1.CR2.BITS.LBCL = 0;
-  UART1.CR2.BITS.LBDIE = 0;
-  UART1.CR2.BITS.ADD = 0;
-  
-  UART1.CR1.BITS.M = 0;         //1 start > 8 data > n bit stop
-  UART1.CR1.BITS.WAKE = 0;
-  UART1.CR1.BITS.PCE = 0;
-  UART1.CR1.BITS.PS = 0;
-  UART1.CR1.BITS.PEIE = 0;     //không ngắt lỗi Parity
-  UART1.CR1.BITS.TXEIE = 0;    //không ngắt TXE
-  UART1.CR1.BITS.TCIE = 0;     //không ngắt TC
-  UART1.CR1.BITS.RXNEIE = 1;   //ngắt khi nhận
-  UART1.CR1.BITS.IDLEIE = 0;   //không ngắt khi rơi vào nghỉ
-  UART1.CR1.BITS.TE = 1;        //cho phép truyền
-  UART1.CR1.BITS.RE = 1;        //cho phép nhận
-  UART1.CR1.BITS.RWU = 0;
-  UART1.CR1.BITS.SBK = 0;
-   
-  *((unsigned long*)(0xE000E100 + 4)) |= 0x20;    //bật ngắt UART1 trong NVIC
-  
-  //system tick clock source = AHB = 8MHz
-  STK.LOAD = 8000;              //1ms
-  STK.CTRL.BITS.TICK_INT = 1;   //bật ngắt system tick timer
-  STK.CTRL.BITS.CLK_SOURCE = 1;
-  
-  UART1.CR1.BITS.UE = 1;        //bật bus UART1 
-  STK.CTRL.BITS.ENABLE = 1;     //bật system tick timer
+     *((unsigned long*)(0x40021000 + 0x18)) |= 0x08;
+    GPIO_Mode(&GPIOB,BIT12,GPIO_MODE_OUTPUT_PUSHPULL_50MHz);
 
-  while (1)
-  {
-    BaseProcess();
-    if (System.Event.RX)
+    STK.LOAD       = 8000  ; //1ms (clock 8M/1000)
+    STK.VALUE      = 8000;
+    STK.CTRL.REG = BIT2 | BIT1 | BIT0 ;
+    while(1)
     {
-      UART_SendString("123"); // Gửi chuỗi "123" qua UART
-      UART1_RX.Size = 0;
-      System.Event.RX = 0;
+        
     }
-  }
 }

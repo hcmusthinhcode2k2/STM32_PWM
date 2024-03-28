@@ -1,2 +1,2 @@
 # STM32_PWM
-điều chỉnh led bằng nodejs và PWM
+Tính toán chu kỳ để băng xung bằng PWM kích hoạt led

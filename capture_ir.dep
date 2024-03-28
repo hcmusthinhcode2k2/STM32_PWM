@@ -5,176 +5,85 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\crc.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\capture_ir.out</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\rcc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\stm32f103c8t6.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\gpio.h</file>
             <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\wwdg.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\exti.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\spi.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\common.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\i2c.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\bkp.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\cortex_m3.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\general_timer.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\cortex_m3.xcl</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\basic_timer.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\bitband.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\common.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103cx.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\common.o</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\idwg.h</file>
-            <file>$PROJ_DIR$\include\common.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\rtc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
-            <file>$PROJ_DIR$\source\system_stm32f1xx.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.xcl</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\define.h</file>
-            <file>$PROJ_DIR$\include\gpio.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\pwr.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\advanced_timer.h</file>
-            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103x8.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\flash.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\cortex_m3.o</file>
-            <file>$PROJ_DIR$\Debug\List\capture_ir.map</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\afio.h</file>
-            <file>$PROJ_DIR$\include\cortex_m3.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\adc.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\capture_ir.pbd</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\uart.h</file>
-            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\base_timer.h</file>
-            <file>$PROJ_DIR$\include\define.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\source\cortex_m3.c</file>
+            <file>$PROJ_DIR$\source\startup_stm32f103cx.s</file>
             <file>$PROJ_DIR$\source\common.c</file>
             <file>$PROJ_DIR$\source\gpio.c</file>
-            <file>$PROJ_DIR$\source\cortex_m3.c</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\gpio.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\define.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.xcl</file>
             <file>$PROJ_DIR$\source\main.c</file>
-            <file>$PROJ_DIR$\source\startup_stm32f103cx.s</file>
+            <file>$PROJ_DIR$\include\gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\afio.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\base_timer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\capture_ir.pbd</file>
+            <file>$PROJ_DIR$\Debug\List\capture_ir.map</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\adc.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\flash.h</file>
+            <file>$PROJ_DIR$\include\define.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\uart.h</file>
+            <file>$PROJ_DIR$\include\cortex_m3.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\cortex_m3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103cx.o</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\bkp.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\capture_ir.out</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\crc.h</file>
+            <file>$PROJ_DIR$\source\system_stm32f1xx.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\rtc.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\basic_timer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cortex_m3.xcl</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\spi.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\pwr.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cortex_m3.o</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\general_timer.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103x8.icf</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\advanced_timer.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\rcc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\common.xcl</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\i2c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\common.o</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\idwg.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\exti.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\stm32f103c8t6.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
+            <file>$PROJ_DIR$\include\common.h</file>
+            <file>$PROJ_DIR$\..\STM32_IR_TRACKING_PROJECT\include\bitband.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 1 40</file>
+                    <file> 25 15</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\capture_ir.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 40</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 36 21 39 18 32 20 22 10 33 31</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\source\system_stm32f1xx.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 28</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 42 24 47</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\source\common.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 21</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 47</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\source\gpio.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 26</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 18</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 30 47</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\source\cortex_m3.c</name>
             <outputs>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 15</file>
-                </tool>
-                <tool>
                     <name>ICCARM</name>
-                    <file> 39</file>
+                    <file> 36</file>
                 </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 42 24 47</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\source\main.c</name>
-            <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 37</file>
-                </tool>
-                <tool>
-                    <name>ICCARM</name>
                     <file> 32</file>
                 </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 3</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 5 29 13 9 45 4 17 16 14 46 25 6 23 8 11 12 34 41 7 43 35 2 38 0</file>
+                    <file> 21 51 18</file>
                 </tool>
             </inputs>
         </file>
@@ -183,9 +92,100 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 20</file>
+                    <file> 23</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48 22 44 7 52 31 37 13 30 0 46 33 20 42 24 35 12 47 6 16 39 40 17 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\capture_ir.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 38 45 36 43 11 23 26 49 34 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21 51 18</file>
+                </tool>
+            </inputs>
         </file>
     </configuration>
     <configuration>
