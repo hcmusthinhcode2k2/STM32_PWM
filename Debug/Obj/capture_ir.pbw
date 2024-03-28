@@ -15047,7 +15047,7 @@
     "location": {
       "column": "31",
       "line": "3",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "BitArray",
     "origin": "project_file",
@@ -15061,7 +15061,7 @@
     "location": {
       "column": "31",
       "line": "14",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "BitGroup",
     "origin": "project_file",
@@ -15075,7 +15075,7 @@
     "location": {
       "column": "28",
       "line": "25",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "HighBitCount",
     "origin": "project_file",
@@ -15089,7 +15089,7 @@
     "location": {
       "column": "28",
       "line": "60",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "ReverseByte",
     "origin": "project_file",
@@ -15103,7 +15103,7 @@
     "location": {
       "column": "28",
       "line": "95",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "HighBitCompare5",
     "origin": "project_file",
@@ -15117,7 +15117,7 @@
     "location": {
       "column": "6",
       "line": "102",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "DelayLoop",
     "origin": "project_file",
@@ -15131,7 +15131,7 @@
     "location": {
       "column": "9",
       "line": "104",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -15145,7 +15145,7 @@
     "location": {
       "column": "6",
       "line": "126",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "CompareString",
     "origin": "project_file",
@@ -15159,7 +15159,7 @@
     "location": {
       "column": "6",
       "line": "131",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "CompareArray",
     "origin": "project_file",
@@ -15173,7 +15173,7 @@
     "location": {
       "column": "6",
       "line": "141",
-      "path": "E:\\STM32_USART\\source\\common.c"
+      "path": "E:\\STM32_PWM\\source\\common.c"
     },
     "name": "Storage",
     "origin": "project_file",
@@ -26017,7 +26017,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "E:\\STM32_USART\\source\\cortex_m3.c"
+      "path": "E:\\STM32_PWM\\source\\cortex_m3.c"
     },
     "name": "STK_Init",
     "origin": "project_file",
@@ -31271,7 +31271,7 @@
     "location": {
       "column": "6",
       "line": "3",
-      "path": "E:\\STM32_USART\\source\\gpio.c"
+      "path": "E:\\STM32_PWM\\source\\gpio.c"
     },
     "name": "GPIO_Mode",
     "origin": "project_file",
@@ -31285,7 +31285,7 @@
     "location": {
       "column": "16",
       "line": "5",
-      "path": "E:\\STM32_USART\\source\\gpio.c"
+      "path": "E:\\STM32_PWM\\source\\gpio.c"
     },
     "name": "reset",
     "origin": "project_file",
@@ -31299,7 +31299,7 @@
     "location": {
       "column": "27",
       "line": "5",
-      "path": "E:\\STM32_USART\\source\\gpio.c"
+      "path": "E:\\STM32_PWM\\source\\gpio.c"
     },
     "name": "set",
     "origin": "project_file",
@@ -31313,7 +31313,7 @@
     "location": {
       "column": "21",
       "line": "6",
-      "path": "E:\\STM32_USART\\source\\gpio.c"
+      "path": "E:\\STM32_PWM\\source\\gpio.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -31327,7 +31327,7 @@
     "location": {
       "column": "21",
       "line": "20",
-      "path": "E:\\STM32_USART\\source\\gpio.c"
+      "path": "E:\\STM32_PWM\\source\\gpio.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -31693,6 +31693,20 @@
                 "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_25_3::_anonymous_spi_h_25_3"
               },
               {
+                "ID": "c:@SA@SPI_TypeDef@U@spi.h@1783@S@spi.h@1783@FI@RXNEIE",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "RXNEIE",
+                "location": {
+                  "column": "3",
+                  "line": "25",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
+                },
+                "name": "RXNEIE",
+                "origin": "user_include",
+                "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_25_3::_anonymous_spi_h_25_3"
+              },
+              {
                 "ID": "c:@SA@SPI_TypeDef@U@spi.h@1783@S@spi.h@1783@FI@TXEIE",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -31731,20 +31745,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
                 },
                 "name": "CR2",
-                "origin": "user_include",
-                "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_25_3::_anonymous_spi_h_25_3"
-              },
-              {
-                "ID": "c:@SA@SPI_TypeDef@U@spi.h@1783@S@spi.h@1783@FI@RXNEIE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "RXNEIE",
-                "location": {
-                  "column": "3",
-                  "line": "25",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
-                },
-                "name": "RXNEIE",
                 "origin": "user_include",
                 "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_25_3::_anonymous_spi_h_25_3"
               },
@@ -31879,6 +31879,20 @@
                 "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_34_3::_anonymous_spi_h_34_3"
               },
               {
+                "ID": "c:@SA@SPI_TypeDef@U@spi.h@2619@S@spi.h@2619@FI@TXE",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "TXE",
+                "location": {
+                  "column": "3",
+                  "line": "34",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
+                },
+                "name": "TXE",
+                "origin": "user_include",
+                "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_34_3::_anonymous_spi_h_34_3"
+              },
+              {
                 "ID": "c:@SA@SPI_TypeDef@U@spi.h@2619@S@spi.h@2619@FI@RXNE",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -31903,20 +31917,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
                 },
                 "name": "CHSIDE",
-                "origin": "user_include",
-                "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_34_3::_anonymous_spi_h_34_3"
-              },
-              {
-                "ID": "c:@SA@SPI_TypeDef@U@spi.h@2619@S@spi.h@2619@FI@TXE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "TXE",
-                "location": {
-                  "column": "3",
-                  "line": "34",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
-                },
-                "name": "TXE",
                 "origin": "user_include",
                 "scope": "_anonymous_spi_h_7_9::_anonymous_spi_h_34_3::_anonymous_spi_h_34_3"
               },
@@ -32738,6 +32738,20 @@
             "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_84_3"
           },
           {
+            "ID": "c:@SA@SPI_BITBAND_TypeDef@S@spi.h@7224@FI@RXNEIE",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "RXNEIE",
+            "location": {
+              "column": "3",
+              "line": "84",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
+            },
+            "name": "RXNEIE",
+            "origin": "user_include",
+            "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_84_3"
+          },
+          {
             "ID": "c:@SA@SPI_BITBAND_TypeDef@S@spi.h@7224@FI@TXEIE",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -32762,20 +32776,6 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
             },
             "name": "CR2",
-            "origin": "user_include",
-            "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_84_3"
-          },
-          {
-            "ID": "c:@SA@SPI_BITBAND_TypeDef@S@spi.h@7224@FI@RXNEIE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "RXNEIE",
-            "location": {
-              "column": "3",
-              "line": "84",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
-            },
-            "name": "RXNEIE",
             "origin": "user_include",
             "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_84_3"
           },
@@ -32880,6 +32880,20 @@
             "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_93_3"
           },
           {
+            "ID": "c:@SA@SPI_BITBAND_TypeDef@S@spi.h@8060@FI@TXE",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "TXE",
+            "location": {
+              "column": "3",
+              "line": "93",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
+            },
+            "name": "TXE",
+            "origin": "user_include",
+            "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_93_3"
+          },
+          {
             "ID": "c:@SA@SPI_BITBAND_TypeDef@S@spi.h@8060@FI@RXNE",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -32904,20 +32918,6 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
             },
             "name": "CHSIDE",
-            "origin": "user_include",
-            "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_93_3"
-          },
-          {
-            "ID": "c:@SA@SPI_BITBAND_TypeDef@S@spi.h@8060@FI@TXE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "TXE",
-            "location": {
-              "column": "3",
-              "line": "93",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
-            },
-            "name": "TXE",
             "origin": "user_include",
             "scope": "_anonymous_spi_h_66_9::_anonymous_spi_h_93_3"
           },
@@ -33730,20 +33730,6 @@
                     "scope": "_anonymous_spi_h_127_9::_anonymous_spi_h_130_3::_anonymous_spi_h_147_5::_anonymous_spi_h_147_5"
                   },
                   {
-                    "ID": "c:@UA@SPIInit_TypeDef@Sa@FI@Interrupt",
-                    "What": "FieldDecl",
-                    "defdec": "Def",
-                    "display": "Interrupt",
-                    "location": {
-                      "column": "5",
-                      "line": "147",
-                      "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
-                    },
-                    "name": "Interrupt",
-                    "origin": "user_include",
-                    "scope": "_anonymous_spi_h_127_9::_anonymous_spi_h_130_3::_anonymous_spi_h_147_5::_anonymous_spi_h_147_5"
-                  },
-                  {
                     "ID": "c:@UA@SPIInit_TypeDef@Sa@U@spi.h@12528@FI@REG",
                     "What": "FieldDecl",
                     "defdec": "Def",
@@ -33754,6 +33740,20 @@
                       "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
                     },
                     "name": "REG",
+                    "origin": "user_include",
+                    "scope": "_anonymous_spi_h_127_9::_anonymous_spi_h_130_3::_anonymous_spi_h_147_5::_anonymous_spi_h_147_5"
+                  },
+                  {
+                    "ID": "c:@UA@SPIInit_TypeDef@Sa@FI@Interrupt",
+                    "What": "FieldDecl",
+                    "defdec": "Def",
+                    "display": "Interrupt",
+                    "location": {
+                      "column": "5",
+                      "line": "147",
+                      "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\spi.h"
+                    },
+                    "name": "Interrupt",
                     "origin": "user_include",
                     "scope": "_anonymous_spi_h_127_9::_anonymous_spi_h_130_3::_anonymous_spi_h_147_5::_anonymous_spi_h_147_5"
                   },
@@ -35843,20 +35843,6 @@
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
               },
               {
-                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@5538@S@advanced_timer.h@5538@FI@CC3IF",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC3IF",
-                "location": {
-                  "column": "3",
-                  "line": "62",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
-                },
-                "name": "CC3IF",
-                "origin": "user_include",
-                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
-              },
-              {
                 "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@5538@S@advanced_timer.h@5538@FI@_reserved1",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -35867,6 +35853,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
                 },
                 "name": "_reserved1",
+                "origin": "user_include",
+                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
+              },
+              {
+                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@5538@S@advanced_timer.h@5538@FI@CC3IF",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC3IF",
+                "location": {
+                  "column": "3",
+                  "line": "62",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
+                },
+                "name": "CC3IF",
                 "origin": "user_include",
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
               },
@@ -35983,20 +35983,6 @@
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
               },
               {
-                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@5538@S@advanced_timer.h@5538@FI@CC2OF",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC2OF",
-                "location": {
-                  "column": "3",
-                  "line": "62",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
-                },
-                "name": "CC2OF",
-                "origin": "user_include",
-                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
-              },
-              {
                 "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@5538@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -36007,6 +35993,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
+              },
+              {
+                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@5538@S@advanced_timer.h@5538@FI@CC2OF",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC2OF",
+                "location": {
+                  "column": "3",
+                  "line": "62",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
+                },
+                "name": "CC2OF",
                 "origin": "user_include",
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_62_3::_anonymous_advanced_timer_h_62_3"
               }
@@ -36169,20 +36169,6 @@
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_77_3::_anonymous_advanced_timer_h_77_3"
               },
               {
-                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@7072@S@advanced_timer.h@7072@FI@CC4G",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC4G",
-                "location": {
-                  "column": "3",
-                  "line": "77",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
-                },
-                "name": "CC4G",
-                "origin": "user_include",
-                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_77_3::_anonymous_advanced_timer_h_77_3"
-              },
-              {
                 "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@7072@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -36193,6 +36179,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_77_3::_anonymous_advanced_timer_h_77_3"
+              },
+              {
+                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@7072@S@advanced_timer.h@7072@FI@CC4G",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC4G",
+                "location": {
+                  "column": "3",
+                  "line": "77",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
+                },
+                "name": "CC4G",
                 "origin": "user_include",
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_77_3::_anonymous_advanced_timer_h_77_3"
               },
@@ -36863,20 +36863,6 @@
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_118_3::_anonymous_advanced_timer_h_118_3"
               },
               {
-                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@9397@S@advanced_timer.h@9397@FI@CC1E",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC1E",
-                "location": {
-                  "column": "3",
-                  "line": "118",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
-                },
-                "name": "CC1E",
-                "origin": "user_include",
-                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_118_3::_anonymous_advanced_timer_h_118_3"
-              },
-              {
                 "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@9397@S@advanced_timer.h@9397@FI@_reserved",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -36887,6 +36873,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
                 },
                 "name": "_reserved",
+                "origin": "user_include",
+                "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_118_3::_anonymous_advanced_timer_h_118_3"
+              },
+              {
+                "ID": "c:@SA@ADVANCED_TIMER_TypeDef@U@advanced_timer.h@9397@S@advanced_timer.h@9397@FI@CC1E",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC1E",
+                "location": {
+                  "column": "3",
+                  "line": "118",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
+                },
+                "name": "CC1E",
                 "origin": "user_include",
                 "scope": "_anonymous_advanced_timer_h_8_9::_anonymous_advanced_timer_h_118_3::_anonymous_advanced_timer_h_118_3"
               },
@@ -38414,20 +38414,6 @@
             "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_214_3"
           },
           {
-            "ID": "c:@SA@ADVANCED_TIMER_BITBAND_TypeDef@S@advanced_timer.h@19063@FI@CC3IF",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CC3IF",
-            "location": {
-              "column": "3",
-              "line": "214",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
-            },
-            "name": "CC3IF",
-            "origin": "user_include",
-            "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_214_3"
-          },
-          {
             "ID": "c:@SA@ADVANCED_TIMER_BITBAND_TypeDef@S@advanced_timer.h@19063@FI@_reserved1",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -38438,6 +38424,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
             },
             "name": "_reserved1",
+            "origin": "user_include",
+            "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_214_3"
+          },
+          {
+            "ID": "c:@SA@ADVANCED_TIMER_BITBAND_TypeDef@S@advanced_timer.h@19063@FI@CC3IF",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CC3IF",
+            "location": {
+              "column": "3",
+              "line": "214",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
+            },
+            "name": "CC3IF",
             "origin": "user_include",
             "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_214_3"
           },
@@ -39198,20 +39198,6 @@
             "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_262_3"
           },
           {
-            "ID": "c:@SA@ADVANCED_TIMER_BITBAND_TypeDef@S@advanced_timer.h@22789@FI@CC1E",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CC1E",
-            "location": {
-              "column": "3",
-              "line": "262",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
-            },
-            "name": "CC1E",
-            "origin": "user_include",
-            "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_262_3"
-          },
-          {
             "ID": "c:@SA@ADVANCED_TIMER_BITBAND_TypeDef@S@advanced_timer.h@22789@FI@_reserved",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -39222,6 +39208,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
             },
             "name": "_reserved",
+            "origin": "user_include",
+            "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_262_3"
+          },
+          {
+            "ID": "c:@SA@ADVANCED_TIMER_BITBAND_TypeDef@S@advanced_timer.h@22789@FI@CC1E",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CC1E",
+            "location": {
+              "column": "3",
+              "line": "262",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\advanced_timer.h"
+            },
+            "name": "CC1E",
             "origin": "user_include",
             "scope": "_anonymous_advanced_timer_h_160_9::_anonymous_advanced_timer_h_262_3"
           },
@@ -40447,20 +40447,6 @@
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_36_3::_anonymous_general_timer_h_36_3"
               },
               {
-                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@2626@S@general_timer.h@2626@FI@CC3DE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC3DE",
-                "location": {
-                  "column": "3",
-                  "line": "36",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-                },
-                "name": "CC3DE",
-                "origin": "user_include",
-                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_36_3::_anonymous_general_timer_h_36_3"
-              },
-              {
                 "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@2626@S@general_timer.h@2626@FI@_reserved1",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -40471,6 +40457,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
                 },
                 "name": "_reserved1",
+                "origin": "user_include",
+                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_36_3::_anonymous_general_timer_h_36_3"
+              },
+              {
+                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@2626@S@general_timer.h@2626@FI@CC3DE",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC3DE",
+                "location": {
+                  "column": "3",
+                  "line": "36",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+                },
+                "name": "CC3DE",
                 "origin": "user_include",
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_36_3::_anonymous_general_timer_h_36_3"
               },
@@ -40759,20 +40759,6 @@
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
               },
               {
-                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@CC3IF",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC3IF",
-                "location": {
-                  "column": "3",
-                  "line": "53",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-                },
-                "name": "CC3IF",
-                "origin": "user_include",
-                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
-              },
-              {
                 "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@_reserved1",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -40783,6 +40769,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
                 },
                 "name": "_reserved1",
+                "origin": "user_include",
+                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
+              },
+              {
+                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@CC3IF",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC3IF",
+                "location": {
+                  "column": "3",
+                  "line": "53",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+                },
+                "name": "CC3IF",
                 "origin": "user_include",
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
               },
@@ -40825,6 +40825,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
                 },
                 "name": "TIF",
+                "origin": "user_include",
+                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
+              },
+              {
+                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@_reserved2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "_reserved2",
+                "location": {
+                  "column": "3",
+                  "line": "53",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+                },
+                "name": "_reserved2",
                 "origin": "user_include",
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
               },
@@ -40885,20 +40899,6 @@
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
               },
               {
-                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@_reserved2",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "_reserved2",
-                "location": {
-                  "column": "3",
-                  "line": "53",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-                },
-                "name": "_reserved2",
-                "origin": "user_include",
-                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
-              },
-              {
                 "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@UIF",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -40913,20 +40913,6 @@
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
               },
               {
-                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@CC2OF",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC2OF",
-                "location": {
-                  "column": "3",
-                  "line": "53",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-                },
-                "name": "CC2OF",
-                "origin": "user_include",
-                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
-              },
-              {
                 "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -40937,6 +40923,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
+              },
+              {
+                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@4348@S@general_timer.h@4348@FI@CC2OF",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC2OF",
+                "location": {
+                  "column": "3",
+                  "line": "53",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+                },
+                "name": "CC2OF",
                 "origin": "user_include",
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_53_3::_anonymous_general_timer_h_53_3"
               }
@@ -41085,20 +41085,6 @@
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_67_3::_anonymous_general_timer_h_67_3"
               },
               {
-                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@5717@S@general_timer.h@5717@FI@CC4G",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC4G",
-                "location": {
-                  "column": "3",
-                  "line": "67",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-                },
-                "name": "CC4G",
-                "origin": "user_include",
-                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_67_3::_anonymous_general_timer_h_67_3"
-              },
-              {
                 "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@5717@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -41109,6 +41095,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_67_3::_anonymous_general_timer_h_67_3"
+              },
+              {
+                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@5717@S@general_timer.h@5717@FI@CC4G",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC4G",
+                "location": {
+                  "column": "3",
+                  "line": "67",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+                },
+                "name": "CC4G",
                 "origin": "user_include",
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_67_3::_anonymous_general_timer_h_67_3"
               },
@@ -41723,20 +41723,6 @@
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_107_3::_anonymous_general_timer_h_107_3"
               },
               {
-                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@7858@S@general_timer.h@7858@FI@CC1E",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CC1E",
-                "location": {
-                  "column": "3",
-                  "line": "107",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-                },
-                "name": "CC1E",
-                "origin": "user_include",
-                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_107_3::_anonymous_general_timer_h_107_3"
-              },
-              {
                 "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@7858@S@general_timer.h@7858@FI@_reserved",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -41747,6 +41733,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
                 },
                 "name": "_reserved",
+                "origin": "user_include",
+                "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_107_3::_anonymous_general_timer_h_107_3"
+              },
+              {
+                "ID": "c:@SA@GENERAL_TIMER_TypeDef@U@general_timer.h@7858@S@general_timer.h@7858@FI@CC1E",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CC1E",
+                "location": {
+                  "column": "3",
+                  "line": "107",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+                },
+                "name": "CC1E",
                 "origin": "user_include",
                 "scope": "_anonymous_general_timer_h_8_9::_anonymous_general_timer_h_107_3::_anonymous_general_timer_h_107_3"
               },
@@ -42680,20 +42680,6 @@
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_165_3"
           },
           {
-            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@12819@FI@CC3DE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CC3DE",
-            "location": {
-              "column": "3",
-              "line": "165",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-            },
-            "name": "CC3DE",
-            "origin": "user_include",
-            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_165_3"
-          },
-          {
             "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@12819@FI@_reserved1",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -42704,6 +42690,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
             },
             "name": "_reserved1",
+            "origin": "user_include",
+            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_165_3"
+          },
+          {
+            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@12819@FI@CC3DE",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CC3DE",
+            "location": {
+              "column": "3",
+              "line": "165",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+            },
+            "name": "CC3DE",
             "origin": "user_include",
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_165_3"
           },
@@ -42948,20 +42948,6 @@
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
           },
           {
-            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@14541@FI@CC3IF",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CC3IF",
-            "location": {
-              "column": "3",
-              "line": "182",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-            },
-            "name": "CC3IF",
-            "origin": "user_include",
-            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
-          },
-          {
             "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@14541@FI@_reserved1",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -42972,6 +42958,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
             },
             "name": "_reserved1",
+            "origin": "user_include",
+            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
+          },
+          {
+            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@14541@FI@CC3IF",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CC3IF",
+            "location": {
+              "column": "3",
+              "line": "182",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+            },
+            "name": "CC3IF",
             "origin": "user_include",
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
           },
@@ -43000,6 +43000,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
             },
             "name": "TIF",
+            "origin": "user_include",
+            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
+          },
+          {
+            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@14541@FI@_reserved2",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "_reserved2",
+            "location": {
+              "column": "3",
+              "line": "182",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+            },
+            "name": "_reserved2",
             "origin": "user_include",
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
           },
@@ -43056,20 +43070,6 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
             },
             "name": "CC3OF",
-            "origin": "user_include",
-            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
-          },
-          {
-            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@14541@FI@_reserved2",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "_reserved2",
-            "location": {
-              "column": "3",
-              "line": "182",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-            },
-            "name": "_reserved2",
             "origin": "user_include",
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_182_3"
           },
@@ -43676,20 +43676,6 @@
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_228_3"
           },
           {
-            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@17917@FI@CC1E",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CC1E",
-            "location": {
-              "column": "3",
-              "line": "228",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
-            },
-            "name": "CC1E",
-            "origin": "user_include",
-            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_228_3"
-          },
-          {
             "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@17917@FI@_reserved",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -43700,6 +43686,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
             },
             "name": "_reserved",
+            "origin": "user_include",
+            "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_228_3"
+          },
+          {
+            "ID": "c:@SA@GENERAL_TIMER_BITBAND_TypeDef@S@general_timer.h@17917@FI@CC1E",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CC1E",
+            "location": {
+              "column": "3",
+              "line": "228",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\general_timer.h"
+            },
+            "name": "CC1E",
             "origin": "user_include",
             "scope": "_anonymous_general_timer_h_137_9::_anonymous_general_timer_h_228_3"
           },
@@ -44439,20 +44439,6 @@
                 "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
               },
               {
-                "ID": "c:@SA@AFIO_TypeDef@U@afio.h@677@S@afio.h@677@FI@TIM1",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "TIM1",
-                "location": {
-                  "column": "3",
-                  "line": "14",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
-                },
-                "name": "TIM1",
-                "origin": "user_include",
-                "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
-              },
-              {
                 "ID": "c:@SA@AFIO_TypeDef@U@afio.h@677@S@afio.h@677@FI@TIM3",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -44463,6 +44449,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
                 },
                 "name": "TIM3",
+                "origin": "user_include",
+                "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
+              },
+              {
+                "ID": "c:@SA@AFIO_TypeDef@U@afio.h@677@S@afio.h@677@FI@TIM1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "TIM1",
+                "location": {
+                  "column": "3",
+                  "line": "14",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
+                },
+                "name": "TIM1",
                 "origin": "user_include",
                 "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
               },
@@ -44663,20 +44663,6 @@
                 "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
               },
               {
-                "ID": "c:@SA@AFIO_TypeDef@U@afio.h@677@S@afio.h@677@FI@PTP_PPS",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "PTP_PPS",
-                "location": {
-                  "column": "3",
-                  "line": "14",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
-                },
-                "name": "PTP_PPS",
-                "origin": "user_include",
-                "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
-              },
-              {
                 "ID": "c:@SA@AFIO_TypeDef@U@afio.h@677@S@afio.h@677@FI@MII_RMII_SEL",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -44687,6 +44673,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
                 },
                 "name": "MII_RMII_SEL",
+                "origin": "user_include",
+                "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
+              },
+              {
+                "ID": "c:@SA@AFIO_TypeDef@U@afio.h@677@S@afio.h@677@FI@PTP_PPS",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "PTP_PPS",
+                "location": {
+                  "column": "3",
+                  "line": "14",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
+                },
+                "name": "PTP_PPS",
                 "origin": "user_include",
                 "scope": "_anonymous_afio_h_7_9::_anonymous_afio_h_14_3::_anonymous_afio_h_14_3"
               },
@@ -45678,20 +45678,6 @@
             "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
           },
           {
-            "ID": "c:@SA@AFIO_BITBAND_TypeDef@S@afio.h@12733@FI@TIM1",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "TIM1",
-            "location": {
-              "column": "3",
-              "line": "139",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
-            },
-            "name": "TIM1",
-            "origin": "user_include",
-            "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
-          },
-          {
             "ID": "c:@SA@AFIO_BITBAND_TypeDef@S@afio.h@12733@FI@TIM3",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -45702,6 +45688,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
             },
             "name": "TIM3",
+            "origin": "user_include",
+            "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
+          },
+          {
+            "ID": "c:@SA@AFIO_BITBAND_TypeDef@S@afio.h@12733@FI@TIM1",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "TIM1",
+            "location": {
+              "column": "3",
+              "line": "139",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
+            },
+            "name": "TIM1",
             "origin": "user_include",
             "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
           },
@@ -45860,20 +45860,6 @@
             "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
           },
           {
-            "ID": "c:@SA@AFIO_BITBAND_TypeDef@S@afio.h@12733@FI@PTP_PPS",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "PTP_PPS",
-            "location": {
-              "column": "3",
-              "line": "139",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
-            },
-            "name": "PTP_PPS",
-            "origin": "user_include",
-            "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
-          },
-          {
             "ID": "c:@SA@AFIO_BITBAND_TypeDef@S@afio.h@12733@FI@MII_RMII_SEL",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -45884,6 +45870,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
             },
             "name": "MII_RMII_SEL",
+            "origin": "user_include",
+            "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
+          },
+          {
+            "ID": "c:@SA@AFIO_BITBAND_TypeDef@S@afio.h@12733@FI@PTP_PPS",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "PTP_PPS",
+            "location": {
+              "column": "3",
+              "line": "139",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\afio.h"
+            },
+            "name": "PTP_PPS",
             "origin": "user_include",
             "scope": "_anonymous_afio_h_132_9::_anonymous_afio_h_139_3"
           },
@@ -47045,20 +47045,6 @@
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_26_3::_anonymous_rcc_h_26_3"
               },
               {
-                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@1908@S@rcc.h@1908@FI@AHB_PRE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "AHB_PRE",
-                "location": {
-                  "column": "3",
-                  "line": "26",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-                },
-                "name": "AHB_PRE",
-                "origin": "user_include",
-                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_26_3::_anonymous_rcc_h_26_3"
-              },
-              {
                 "ID": "c:@SA@RCC_TypeDef@U@rcc.h@1908@S@rcc.h@1908@FI@_reserved1",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -47069,6 +47055,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
                 },
                 "name": "_reserved1",
+                "origin": "user_include",
+                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_26_3::_anonymous_rcc_h_26_3"
+              },
+              {
+                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@1908@S@rcc.h@1908@FI@AHB_PRE",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "AHB_PRE",
+                "location": {
+                  "column": "3",
+                  "line": "26",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+                },
+                "name": "AHB_PRE",
                 "origin": "user_include",
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_26_3::_anonymous_rcc_h_26_3"
               },
@@ -47287,20 +47287,6 @@
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
               },
               {
-                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@3259@S@rcc.h@3259@FI@PLL_RDY_IE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "PLL_RDY_IE",
-                "location": {
-                  "column": "3",
-                  "line": "40",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-                },
-                "name": "PLL_RDY_IE",
-                "origin": "user_include",
-                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
-              },
-              {
                 "ID": "c:@SA@RCC_TypeDef@U@rcc.h@3259@S@rcc.h@3259@FI@LSI_RDYC",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -47311,6 +47297,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
                 },
                 "name": "LSI_RDYC",
+                "origin": "user_include",
+                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
+              },
+              {
+                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@3259@S@rcc.h@3259@FI@PLL_RDY_IE",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "PLL_RDY_IE",
+                "location": {
+                  "column": "3",
+                  "line": "40",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+                },
+                "name": "PLL_RDY_IE",
                 "origin": "user_include",
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
               },
@@ -47329,20 +47329,6 @@
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
               },
               {
-                "ID": "c:@SA@RCC_TypeDef@FI@CIR",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CIR",
-                "location": {
-                  "column": "3",
-                  "line": "40",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-                },
-                "name": "CIR",
-                "origin": "user_include",
-                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
-              },
-              {
                 "ID": "c:@SA@RCC_TypeDef@U@rcc.h@3259@S@rcc.h@3259@FI@LSI_RDYF",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -47353,6 +47339,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
                 },
                 "name": "LSI_RDYF",
+                "origin": "user_include",
+                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
+              },
+              {
+                "ID": "c:@SA@RCC_TypeDef@FI@CIR",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CIR",
+                "location": {
+                  "column": "3",
+                  "line": "40",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+                },
+                "name": "CIR",
                 "origin": "user_include",
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_40_3::_anonymous_rcc_h_40_3"
               },
@@ -47795,20 +47795,6 @@
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_66_3::_anonymous_rcc_h_66_3"
               },
               {
-                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@5891@S@rcc.h@5891@FI@IOPA",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "IOPA",
-                "location": {
-                  "column": "3",
-                  "line": "66",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-                },
-                "name": "IOPA",
-                "origin": "user_include",
-                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_66_3::_anonymous_rcc_h_66_3"
-              },
-              {
                 "ID": "c:@SA@RCC_TypeDef@U@rcc.h@5891@S@rcc.h@5891@FI@_reserved2",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -47819,6 +47805,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
                 },
                 "name": "_reserved2",
+                "origin": "user_include",
+                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_66_3::_anonymous_rcc_h_66_3"
+              },
+              {
+                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@5891@S@rcc.h@5891@FI@IOPA",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPA",
+                "location": {
+                  "column": "3",
+                  "line": "66",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+                },
+                "name": "IOPA",
                 "origin": "user_include",
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_66_3::_anonymous_rcc_h_66_3"
               },
@@ -48885,20 +48885,6 @@
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_131_3::_anonymous_rcc_h_131_3"
               },
               {
-                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@11586@S@rcc.h@11586@FI@IOPA",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "IOPA",
-                "location": {
-                  "column": "3",
-                  "line": "131",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-                },
-                "name": "IOPA",
-                "origin": "user_include",
-                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_131_3::_anonymous_rcc_h_131_3"
-              },
-              {
                 "ID": "c:@SA@RCC_TypeDef@U@rcc.h@11586@S@rcc.h@11586@FI@_reserved2",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -48909,6 +48895,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
                 },
                 "name": "_reserved2",
+                "origin": "user_include",
+                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_131_3::_anonymous_rcc_h_131_3"
+              },
+              {
+                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@11586@S@rcc.h@11586@FI@IOPA",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPA",
+                "location": {
+                  "column": "3",
+                  "line": "131",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+                },
+                "name": "IOPA",
                 "origin": "user_include",
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_131_3::_anonymous_rcc_h_131_3"
               },
@@ -50123,6 +50123,20 @@
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_211_3::_anonymous_rcc_h_211_3"
               },
               {
+                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@19069@S@rcc.h@19069@FI@_reserved",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "_reserved",
+                "location": {
+                  "column": "3",
+                  "line": "211",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+                },
+                "name": "_reserved",
+                "origin": "user_include",
+                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_211_3::_anonymous_rcc_h_211_3"
+              },
+              {
                 "ID": "c:@SA@RCC_TypeDef@U@rcc.h@19069@S@rcc.h@19069@FI@PRE_DIV2",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -50175,20 +50189,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
                 },
                 "name": "CFGR2",
-                "origin": "user_include",
-                "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_211_3::_anonymous_rcc_h_211_3"
-              },
-              {
-                "ID": "c:@SA@RCC_TypeDef@U@rcc.h@19069@S@rcc.h@19069@FI@_reserved",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "_reserved",
-                "location": {
-                  "column": "3",
-                  "line": "211",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-                },
-                "name": "_reserved",
                 "origin": "user_include",
                 "scope": "_anonymous_rcc_h_6_9::_anonymous_rcc_h_211_3::_anonymous_rcc_h_211_3"
               },
@@ -50708,20 +50708,6 @@
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_242_3"
           },
           {
-            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@21736@FI@AHB_PRE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "AHB_PRE",
-            "location": {
-              "column": "3",
-              "line": "242",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-            },
-            "name": "AHB_PRE",
-            "origin": "user_include",
-            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_242_3"
-          },
-          {
             "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@21736@FI@_reserved1",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -50732,6 +50718,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
             },
             "name": "_reserved1",
+            "origin": "user_include",
+            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_242_3"
+          },
+          {
+            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@21736@FI@AHB_PRE",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "AHB_PRE",
+            "location": {
+              "column": "3",
+              "line": "242",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+            },
+            "name": "AHB_PRE",
             "origin": "user_include",
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_242_3"
           },
@@ -50906,20 +50906,6 @@
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
           },
           {
-            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@23087@FI@PLL_RDY_IE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "PLL_RDY_IE",
-            "location": {
-              "column": "3",
-              "line": "256",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-            },
-            "name": "PLL_RDY_IE",
-            "origin": "user_include",
-            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
-          },
-          {
             "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@23087@FI@LSI_RDYC",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -50930,6 +50916,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
             },
             "name": "LSI_RDYC",
+            "origin": "user_include",
+            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
+          },
+          {
+            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@23087@FI@PLL_RDY_IE",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "PLL_RDY_IE",
+            "location": {
+              "column": "3",
+              "line": "256",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+            },
+            "name": "PLL_RDY_IE",
             "origin": "user_include",
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
           },
@@ -50948,20 +50948,6 @@
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
           },
           {
-            "ID": "c:@SA@RCC_BITBAND_TypeDef@FI@CIR",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CIR",
-            "location": {
-              "column": "3",
-              "line": "256",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-            },
-            "name": "CIR",
-            "origin": "user_include",
-            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
-          },
-          {
             "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@23087@FI@LSI_RDYF",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -50972,6 +50958,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
             },
             "name": "LSI_RDYF",
+            "origin": "user_include",
+            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
+          },
+          {
+            "ID": "c:@SA@RCC_BITBAND_TypeDef@FI@CIR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CIR",
+            "location": {
+              "column": "3",
+              "line": "256",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+            },
+            "name": "CIR",
             "origin": "user_include",
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_256_3"
           },
@@ -51356,20 +51356,6 @@
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_282_3"
           },
           {
-            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@25719@FI@IOPA",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "IOPA",
-            "location": {
-              "column": "3",
-              "line": "282",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-            },
-            "name": "IOPA",
-            "origin": "user_include",
-            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_282_3"
-          },
-          {
             "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@25719@FI@_reserved2",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -51380,6 +51366,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
             },
             "name": "_reserved2",
+            "origin": "user_include",
+            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_282_3"
+          },
+          {
+            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@25719@FI@IOPA",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "IOPA",
+            "location": {
+              "column": "3",
+              "line": "282",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+            },
+            "name": "IOPA",
             "origin": "user_include",
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_282_3"
           },
@@ -52314,20 +52314,6 @@
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_347_3"
           },
           {
-            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@31414@FI@IOPA",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "IOPA",
-            "location": {
-              "column": "3",
-              "line": "347",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-            },
-            "name": "IOPA",
-            "origin": "user_include",
-            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_347_3"
-          },
-          {
             "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@31414@FI@_reserved2",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -52338,6 +52324,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
             },
             "name": "_reserved2",
+            "origin": "user_include",
+            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_347_3"
+          },
+          {
+            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@31414@FI@IOPA",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "IOPA",
+            "location": {
+              "column": "3",
+              "line": "347",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+            },
+            "name": "IOPA",
             "origin": "user_include",
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_347_3"
           },
@@ -53346,6 +53346,20 @@
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_427_3"
           },
           {
+            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@38897@FI@_reserved",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "_reserved",
+            "location": {
+              "column": "3",
+              "line": "427",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
+            },
+            "name": "_reserved",
+            "origin": "user_include",
+            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_427_3"
+          },
+          {
             "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@38897@FI@PRE_DIV2",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -53398,20 +53412,6 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
             },
             "name": "CFGR2",
-            "origin": "user_include",
-            "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_427_3"
-          },
-          {
-            "ID": "c:@SA@RCC_BITBAND_TypeDef@S@rcc.h@38897@FI@_reserved",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "_reserved",
-            "location": {
-              "column": "3",
-              "line": "427",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\rcc.h"
-            },
-            "name": "_reserved",
             "origin": "user_include",
             "scope": "_anonymous_rcc_h_222_9::_anonymous_rcc_h_427_3"
           },
@@ -53793,7 +53793,7 @@
     "location": {
       "column": "1",
       "line": "6",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "members": [
       {
@@ -53804,7 +53804,7 @@
         "location": {
           "column": "3",
           "line": "8",
-          "path": "E:\\STM32_USART\\source\\main.c"
+          "path": "E:\\STM32_PWM\\source\\main.c"
         },
         "members": [
           {
@@ -53815,7 +53815,7 @@
             "location": {
               "column": "19",
               "line": "10",
-              "path": "E:\\STM32_USART\\source\\main.c"
+              "path": "E:\\STM32_PWM\\source\\main.c"
             },
             "name": "MsTick",
             "origin": "project_file",
@@ -53829,7 +53829,7 @@
             "location": {
               "column": "19",
               "line": "11",
-              "path": "E:\\STM32_USART\\source\\main.c"
+              "path": "E:\\STM32_PWM\\source\\main.c"
             },
             "name": "RX",
             "origin": "project_file",
@@ -53843,7 +53843,7 @@
             "location": {
               "column": "5",
               "line": "12",
-              "path": "E:\\STM32_USART\\source\\main.c"
+              "path": "E:\\STM32_PWM\\source\\main.c"
             },
             "name": "Event",
             "origin": "project_file",
@@ -53862,7 +53862,7 @@
         "location": {
           "column": "17",
           "line": "13",
-          "path": "E:\\STM32_USART\\source\\main.c"
+          "path": "E:\\STM32_PWM\\source\\main.c"
         },
         "name": "MsTime",
         "origin": "project_file",
@@ -53876,7 +53876,7 @@
         "location": {
           "column": "3",
           "line": "14",
-          "path": "E:\\STM32_USART\\source\\main.c"
+          "path": "E:\\STM32_PWM\\source\\main.c"
         },
         "name": "System",
         "origin": "project_file",
@@ -53895,7 +53895,7 @@
     "location": {
       "column": "1",
       "line": "24",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "members": [
       {
@@ -53906,7 +53906,7 @@
         "location": {
           "column": "17",
           "line": "26",
-          "path": "E:\\STM32_USART\\source\\main.c"
+          "path": "E:\\STM32_PWM\\source\\main.c"
         },
         "name": "Size",
         "origin": "project_file",
@@ -53920,7 +53920,7 @@
         "location": {
           "column": "17",
           "line": "27",
-          "path": "E:\\STM32_USART\\source\\main.c"
+          "path": "E:\\STM32_PWM\\source\\main.c"
         },
         "name": "TimeOut",
         "origin": "project_file",
@@ -53934,7 +53934,7 @@
         "location": {
           "column": "17",
           "line": "28",
-          "path": "E:\\STM32_USART\\source\\main.c"
+          "path": "E:\\STM32_PWM\\source\\main.c"
         },
         "name": "Buff",
         "origin": "project_file",
@@ -53948,7 +53948,7 @@
         "location": {
           "column": "3",
           "line": "29",
-          "path": "E:\\STM32_USART\\source\\main.c"
+          "path": "E:\\STM32_PWM\\source\\main.c"
         },
         "name": "UART1_RX",
         "origin": "project_file",
@@ -53967,7 +53967,7 @@
     "location": {
       "column": "6",
       "line": "31",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "name": "SysTick_Handler",
     "origin": "project_file",
@@ -53981,7 +53981,7 @@
     "location": {
       "column": "6",
       "line": "37",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "name": "BaseProcess",
     "origin": "project_file",
@@ -53995,7 +53995,7 @@
     "location": {
       "column": "6",
       "line": "54",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "name": "UART1_IRQHandler",
     "origin": "project_file",
@@ -54009,7 +54009,7 @@
     "location": {
       "column": "17",
       "line": "56",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "name": "data",
     "origin": "project_file",
@@ -54023,7 +54023,7 @@
     "location": {
       "column": "6",
       "line": "65",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "name": "Delay_ms",
     "origin": "project_file",
@@ -54037,9 +54037,23 @@
     "location": {
       "column": "17",
       "line": "67",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "name": "now",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_SendString",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART_SendString(const char *)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "E:\\STM32_PWM\\source\\main.c"
+    },
+    "name": "UART_SendString",
     "origin": "project_file",
     "scope": null
   },
@@ -54050,24 +54064,10 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "72",
-      "path": "E:\\STM32_USART\\source\\main.c"
+      "line": "79",
+      "path": "E:\\STM32_PWM\\source\\main.c"
     },
     "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@3446@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "26",
-      "line": "140",
-      "path": "E:\\STM32_USART\\source\\main.c"
-    },
-    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -54129,6 +54129,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
                 },
                 "name": "SR",
+                "origin": "user_include",
+                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_9_3::_anonymous_uart_h_9_3"
+              },
+              {
+                "ID": "c:@SA@UART_TypeDef@U@uart.h@194@S@uart.h@194@FI@TXE",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "TXE",
+                "location": {
+                  "column": "3",
+                  "line": "9",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
+                },
+                "name": "TXE",
                 "origin": "user_include",
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_9_3::_anonymous_uart_h_9_3"
               },
@@ -54213,20 +54227,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
                 },
                 "name": "LBD",
-                "origin": "user_include",
-                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_9_3::_anonymous_uart_h_9_3"
-              },
-              {
-                "ID": "c:@SA@UART_TypeDef@U@uart.h@194@S@uart.h@194@FI@TXE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "TXE",
-                "location": {
-                  "column": "3",
-                  "line": "9",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
-                },
-                "name": "TXE",
                 "origin": "user_include",
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_9_3::_anonymous_uart_h_9_3"
               },
@@ -54491,6 +54491,34 @@
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
               },
               {
+                "ID": "c:@SA@UART_TypeDef@U@uart.h@1795@S@uart.h@1795@FI@RXNEIE",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "RXNEIE",
+                "location": {
+                  "column": "3",
+                  "line": "26",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
+                },
+                "name": "RXNEIE",
+                "origin": "user_include",
+                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
+              },
+              {
+                "ID": "c:@SA@UART_TypeDef@U@uart.h@1795@S@uart.h@1795@FI@PS",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "PS",
+                "location": {
+                  "column": "3",
+                  "line": "26",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
+                },
+                "name": "PS",
+                "origin": "user_include",
+                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
+              },
+              {
                 "ID": "c:@SA@UART_TypeDef@U@uart.h@1795@S@uart.h@1795@FI@UE",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -54575,16 +54603,16 @@
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
               },
               {
-                "ID": "c:@SA@UART_TypeDef@U@uart.h@1795@S@uart.h@1795@FI@PS",
+                "ID": "c:@SA@UART_TypeDef@U@uart.h@1795@S@uart.h@1795@FI@IDLEIE",
                 "What": "FieldDecl",
                 "defdec": "Def",
-                "display": "PS",
+                "display": "IDLEIE",
                 "location": {
                   "column": "3",
                   "line": "26",
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
                 },
-                "name": "PS",
+                "name": "IDLEIE",
                 "origin": "user_include",
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
               },
@@ -54599,34 +54627,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
                 },
                 "name": "PEIE",
-                "origin": "user_include",
-                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
-              },
-              {
-                "ID": "c:@SA@UART_TypeDef@U@uart.h@1795@S@uart.h@1795@FI@RXNEIE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "RXNEIE",
-                "location": {
-                  "column": "3",
-                  "line": "26",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
-                },
-                "name": "RXNEIE",
-                "origin": "user_include",
-                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
-              },
-              {
-                "ID": "c:@SA@UART_TypeDef@U@uart.h@1795@S@uart.h@1795@FI@IDLEIE",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "IDLEIE",
-                "location": {
-                  "column": "3",
-                  "line": "26",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
-                },
-                "name": "IDLEIE",
                 "origin": "user_include",
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_26_3::_anonymous_uart_h_26_3"
               },
@@ -55185,20 +55185,6 @@
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_55_3::_anonymous_uart_h_55_3"
               },
               {
-                "ID": "c:@SA@UART_TypeDef@FI@CR3",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CR3",
-                "location": {
-                  "column": "3",
-                  "line": "55",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
-                },
-                "name": "CR3",
-                "origin": "user_include",
-                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_55_3::_anonymous_uart_h_55_3"
-              },
-              {
                 "ID": "c:@SA@UART_TypeDef@U@uart.h@4488@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -55209,6 +55195,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_55_3::_anonymous_uart_h_55_3"
+              },
+              {
+                "ID": "c:@SA@UART_TypeDef@FI@CR3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CR3",
+                "location": {
+                  "column": "3",
+                  "line": "55",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
+                },
+                "name": "CR3",
                 "origin": "user_include",
                 "scope": "_anonymous_uart_h_7_9::_anonymous_uart_h_55_3::_anonymous_uart_h_55_3"
               }
@@ -55394,6 +55394,20 @@
             "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_76_3"
           },
           {
+            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@6084@FI@TXE",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "TXE",
+            "location": {
+              "column": "3",
+              "line": "76",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
+            },
+            "name": "TXE",
+            "origin": "user_include",
+            "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_76_3"
+          },
+          {
             "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@6084@FI@RXNE",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -55474,20 +55488,6 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
             },
             "name": "LBD",
-            "origin": "user_include",
-            "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_76_3"
-          },
-          {
-            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@6084@FI@TXE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "TXE",
-            "location": {
-              "column": "3",
-              "line": "76",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
-            },
-            "name": "TXE",
             "origin": "user_include",
             "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_76_3"
           },
@@ -55664,6 +55664,34 @@
             "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
           },
           {
+            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@7685@FI@RXNEIE",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "RXNEIE",
+            "location": {
+              "column": "3",
+              "line": "93",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
+            },
+            "name": "RXNEIE",
+            "origin": "user_include",
+            "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
+          },
+          {
+            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@7685@FI@PS",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "PS",
+            "location": {
+              "column": "3",
+              "line": "93",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
+            },
+            "name": "PS",
+            "origin": "user_include",
+            "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
+          },
+          {
             "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@7685@FI@UE",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -55734,16 +55762,16 @@
             "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
           },
           {
-            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@7685@FI@PS",
+            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@7685@FI@IDLEIE",
             "What": "FieldDecl",
             "defdec": "Def",
-            "display": "PS",
+            "display": "IDLEIE",
             "location": {
               "column": "3",
               "line": "93",
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
             },
-            "name": "PS",
+            "name": "IDLEIE",
             "origin": "user_include",
             "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
           },
@@ -55758,34 +55786,6 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
             },
             "name": "PEIE",
-            "origin": "user_include",
-            "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
-          },
-          {
-            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@7685@FI@RXNEIE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "RXNEIE",
-            "location": {
-              "column": "3",
-              "line": "93",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
-            },
-            "name": "RXNEIE",
-            "origin": "user_include",
-            "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
-          },
-          {
-            "ID": "c:@SA@UART_BITBAND_TypeDef@S@uart.h@7685@FI@IDLEIE",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "IDLEIE",
-            "location": {
-              "column": "3",
-              "line": "93",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\uart.h"
-            },
-            "name": "IDLEIE",
             "origin": "user_include",
             "scope": "_anonymous_uart_h_74_9::_anonymous_uart_h_93_3"
           },
@@ -58597,6 +58597,20 @@
                 "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_11_3::_anonymous_bkp_h_11_3"
               },
               {
+                "ID": "c:@SA@BKP_TypeDef@U@bkp.h@321@FI@BITS",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "BITS",
+                "location": {
+                  "column": "3",
+                  "line": "11",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\bkp.h"
+                },
+                "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_11_3::_anonymous_bkp_h_11_3"
+              },
+              {
                 "ID": "c:@SA@BKP_TypeDef@U@bkp.h@321@S@bkp.h@321@FI@CCO",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -58621,20 +58635,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\bkp.h"
                 },
                 "name": "ASOS",
-                "origin": "user_include",
-                "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_11_3::_anonymous_bkp_h_11_3"
-              },
-              {
-                "ID": "c:@SA@BKP_TypeDef@U@bkp.h@321@FI@BITS",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "BITS",
-                "location": {
-                  "column": "3",
-                  "line": "11",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\bkp.h"
-                },
-                "name": "BITS",
                 "origin": "user_include",
                 "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_11_3::_anonymous_bkp_h_11_3"
               }
@@ -58727,20 +58727,6 @@
                 "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_17_3::_anonymous_bkp_h_17_3"
               },
               {
-                "ID": "c:@SA@BKP_TypeDef@U@bkp.h@911@S@bkp.h@911@FI@TPAL",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "TPAL",
-                "location": {
-                  "column": "3",
-                  "line": "17",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\bkp.h"
-                },
-                "name": "TPAL",
-                "origin": "user_include",
-                "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_17_3::_anonymous_bkp_h_17_3"
-              },
-              {
                 "ID": "c:@SA@BKP_TypeDef@U@bkp.h@911@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -58751,6 +58737,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\bkp.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_17_3::_anonymous_bkp_h_17_3"
+              },
+              {
+                "ID": "c:@SA@BKP_TypeDef@U@bkp.h@911@S@bkp.h@911@FI@TPAL",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "TPAL",
+                "location": {
+                  "column": "3",
+                  "line": "17",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\bkp.h"
+                },
+                "name": "TPAL",
                 "origin": "user_include",
                 "scope": "_anonymous_bkp_h_7_9::_anonymous_bkp_h_17_3::_anonymous_bkp_h_17_3"
               }
@@ -59999,20 +59999,6 @@
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
               },
               {
-                "ID": "c:@SA@ADC_TypeDef@FI@CR2",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CR2",
-                "location": {
-                  "column": "3",
-                  "line": "32",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "CR2",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
-              },
-              {
                 "ID": "c:@SA@ADC_TypeDef@U@adc.h@2579@S@adc.h@2579@FI@_reserved3",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -60023,6 +60009,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
                 },
                 "name": "_reserved3",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@FI@CR2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CR2",
+                "location": {
+                  "column": "3",
+                  "line": "32",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "CR2",
                 "origin": "user_include",
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
               },
@@ -60055,20 +60055,6 @@
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
               },
               {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@2579@S@adc.h@2579@FI@DMA",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "DMA",
-                "location": {
-                  "column": "3",
-                  "line": "32",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "DMA",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
-              },
-              {
                 "ID": "c:@SA@ADC_TypeDef@U@adc.h@2579@S@adc.h@2579@FI@JEXTSEL",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -60079,6 +60065,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
                 },
                 "name": "JEXTSEL",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@2579@S@adc.h@2579@FI@DMA",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "DMA",
+                "location": {
+                  "column": "3",
+                  "line": "32",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "DMA",
                 "origin": "user_include",
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_32_3::_anonymous_adc_h_32_3"
               },
@@ -60493,20 +60493,6 @@
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_50_3::_anonymous_adc_h_50_3"
               },
               {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@4366@S@adc.h@4366@FI@CN9",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "CN9",
-                "location": {
-                  "column": "3",
-                  "line": "50",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "CN9",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_50_3::_anonymous_adc_h_50_3"
-              },
-              {
                 "ID": "c:@SA@ADC_TypeDef@U@adc.h@4366@S@adc.h@4366@FI@CN0",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -60517,6 +60503,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
                 },
                 "name": "CN0",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_50_3::_anonymous_adc_h_50_3"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@4366@S@adc.h@4366@FI@CN9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CN9",
+                "location": {
+                  "column": "3",
+                  "line": "50",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "CN9",
                 "origin": "user_include",
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_50_3::_anonymous_adc_h_50_3"
               }
@@ -60580,6 +60580,90 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
             },
             "members": [
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "th11",
+                "location": {
+                  "column": "4",
+                  "line": "78",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "th11",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th16",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "th16",
+                "location": {
+                  "column": "4",
+                  "line": "78",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "th16",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@rd3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "rd3",
+                "location": {
+                  "column": "4",
+                  "line": "78",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "rd3",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "th8",
+                "location": {
+                  "column": "4",
+                  "line": "78",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "th8",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "th10",
+                "location": {
+                  "column": "4",
+                  "line": "78",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "th10",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
+              },
+              {
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "th12",
+                "location": {
+                  "column": "4",
+                  "line": "78",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+                },
+                "name": "th12",
+                "origin": "user_include",
+                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
+              },
               {
                 "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@nd2",
                 "What": "FieldDecl",
@@ -60819,20 +60903,6 @@
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
               },
               {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th14",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "th14",
-                "location": {
-                  "column": "4",
-                  "line": "78",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "th14",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
-              },
-              {
                 "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th13",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -60843,20 +60913,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
                 },
                 "name": "th13",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
-              },
-              {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th16",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "th16",
-                "location": {
-                  "column": "4",
-                  "line": "78",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "th16",
                 "origin": "user_include",
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
               },
@@ -60875,72 +60931,16 @@
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
               },
               {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th8",
+                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th14",
                 "What": "FieldDecl",
                 "defdec": "Def",
-                "display": "th8",
+                "display": "th14",
                 "location": {
                   "column": "4",
                   "line": "78",
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
                 },
-                "name": "th8",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
-              },
-              {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th11",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "th11",
-                "location": {
-                  "column": "4",
-                  "line": "78",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "th11",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
-              },
-              {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th10",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "th10",
-                "location": {
-                  "column": "4",
-                  "line": "78",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "th10",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
-              },
-              {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@rd3",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "rd3",
-                "location": {
-                  "column": "4",
-                  "line": "78",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "rd3",
-                "origin": "user_include",
-                "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
-              },
-              {
-                "ID": "c:@SA@ADC_TypeDef@U@adc.h@6164@S@adc.h@6164@FI@th12",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "th12",
-                "location": {
-                  "column": "4",
-                  "line": "78",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-                },
-                "name": "th12",
+                "name": "th14",
                 "origin": "user_include",
                 "scope": "_anonymous_adc_h_7_9::_anonymous_adc_h_78_4::_anonymous_adc_h_78_4"
               }
@@ -61750,20 +61750,6 @@
             "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
           },
           {
-            "ID": "c:@SA@ADC_BITBAND_TypeDef@FI@CR2",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CR2",
-            "location": {
-              "column": "3",
-              "line": "138",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-            },
-            "name": "CR2",
-            "origin": "user_include",
-            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
-          },
-          {
             "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@10954@FI@_reserved3",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -61774,6 +61760,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
             },
             "name": "_reserved3",
+            "origin": "user_include",
+            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
+          },
+          {
+            "ID": "c:@SA@ADC_BITBAND_TypeDef@FI@CR2",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CR2",
+            "location": {
+              "column": "3",
+              "line": "138",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+            },
+            "name": "CR2",
             "origin": "user_include",
             "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
           },
@@ -61806,20 +61806,6 @@
             "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
           },
           {
-            "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@10954@FI@DMA",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "DMA",
-            "location": {
-              "column": "3",
-              "line": "138",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-            },
-            "name": "DMA",
-            "origin": "user_include",
-            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
-          },
-          {
             "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@10954@FI@JEXTSEL",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -61830,6 +61816,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
             },
             "name": "JEXTSEL",
+            "origin": "user_include",
+            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
+          },
+          {
+            "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@10954@FI@DMA",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "DMA",
+            "location": {
+              "column": "3",
+              "line": "138",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+            },
+            "name": "DMA",
             "origin": "user_include",
             "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_138_3"
           },
@@ -62158,20 +62158,6 @@
             "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_156_3"
           },
           {
-            "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@12741@FI@CN9",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CN9",
-            "location": {
-              "column": "3",
-              "line": "156",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-            },
-            "name": "CN9",
-            "origin": "user_include",
-            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_156_3"
-          },
-          {
             "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@12741@FI@CN0",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -62182,6 +62168,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
             },
             "name": "CN0",
+            "origin": "user_include",
+            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_156_3"
+          },
+          {
+            "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@12741@FI@CN9",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CN9",
+            "location": {
+              "column": "3",
+              "line": "156",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+            },
+            "name": "CN9",
             "origin": "user_include",
             "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_156_3"
           }
@@ -62230,20 +62230,6 @@
         },
         "members": [
           {
-            "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@14555@FI@L",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "L",
-            "location": {
-              "column": "3",
-              "line": "182",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
-            },
-            "name": "L",
-            "origin": "user_include",
-            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_182_3"
-          },
-          {
             "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@14555@FI@CN1",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -62254,6 +62240,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
             },
             "name": "CN1",
+            "origin": "user_include",
+            "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_182_3"
+          },
+          {
+            "ID": "c:@SA@ADC_BITBAND_TypeDef@S@adc.h@14555@FI@L",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "L",
+            "location": {
+              "column": "3",
+              "line": "182",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\adc.h"
+            },
+            "name": "L",
             "origin": "user_include",
             "scope": "_anonymous_adc_h_113_9::_anonymous_adc_h_182_3"
           },
@@ -63609,6 +63609,34 @@
             },
             "members": [
               {
+                "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@S@i2c.h@3498@FI@SB",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "SB",
+                "location": {
+                  "column": "3",
+                  "line": "46",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
+                },
+                "name": "SB",
+                "origin": "user_include",
+                "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
+              },
+              {
+                "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@S@i2c.h@3498@FI@AF",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "AF",
+                "location": {
+                  "column": "3",
+                  "line": "46",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
+                },
+                "name": "AF",
+                "origin": "user_include",
+                "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
+              },
+              {
                 "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@S@i2c.h@3498@FI@ADDR",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -63735,20 +63763,6 @@
                 "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
               },
               {
-                "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@S@i2c.h@3498@FI@SMBALERT",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "SMBALERT",
-                "location": {
-                  "column": "3",
-                  "line": "46",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
-                },
-                "name": "SMBALERT",
-                "origin": "user_include",
-                "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
-              },
-              {
                 "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -63759,6 +63773,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
+              },
+              {
+                "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@S@i2c.h@3498@FI@SMBALERT",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "SMBALERT",
+                "location": {
+                  "column": "3",
+                  "line": "46",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
+                },
+                "name": "SMBALERT",
                 "origin": "user_include",
                 "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
               },
@@ -63857,34 +63885,6 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
                 },
                 "name": "PECERR",
-                "origin": "user_include",
-                "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
-              },
-              {
-                "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@S@i2c.h@3498@FI@SB",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "SB",
-                "location": {
-                  "column": "3",
-                  "line": "46",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
-                },
-                "name": "SB",
-                "origin": "user_include",
-                "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
-              },
-              {
-                "ID": "c:@SA@I2C_TypeDef@U@i2c.h@3498@S@i2c.h@3498@FI@AF",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "AF",
-                "location": {
-                  "column": "3",
-                  "line": "46",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
-                },
-                "name": "AF",
                 "origin": "user_include",
                 "scope": "_anonymous_i2c_h_7_9::_anonymous_i2c_h_46_3::_anonymous_i2c_h_46_3"
               }
@@ -64894,6 +64894,34 @@
         },
         "members": [
           {
+            "ID": "c:@SA@I2C_BITBAND_TypeDef@S@i2c.h@10257@FI@SB",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "SB",
+            "location": {
+              "column": "3",
+              "line": "123",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
+            },
+            "name": "SB",
+            "origin": "user_include",
+            "scope": "_anonymous_i2c_h_84_9::_anonymous_i2c_h_123_3"
+          },
+          {
+            "ID": "c:@SA@I2C_BITBAND_TypeDef@S@i2c.h@10257@FI@AF",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "AF",
+            "location": {
+              "column": "3",
+              "line": "123",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
+            },
+            "name": "AF",
+            "origin": "user_include",
+            "scope": "_anonymous_i2c_h_84_9::_anonymous_i2c_h_123_3"
+          },
+          {
             "ID": "c:@SA@I2C_BITBAND_TypeDef@S@i2c.h@10257@FI@ADDR",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -65114,34 +65142,6 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
             },
             "name": "PECERR",
-            "origin": "user_include",
-            "scope": "_anonymous_i2c_h_84_9::_anonymous_i2c_h_123_3"
-          },
-          {
-            "ID": "c:@SA@I2C_BITBAND_TypeDef@S@i2c.h@10257@FI@SB",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "SB",
-            "location": {
-              "column": "3",
-              "line": "123",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
-            },
-            "name": "SB",
-            "origin": "user_include",
-            "scope": "_anonymous_i2c_h_84_9::_anonymous_i2c_h_123_3"
-          },
-          {
-            "ID": "c:@SA@I2C_BITBAND_TypeDef@S@i2c.h@10257@FI@AF",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "AF",
-            "location": {
-              "column": "3",
-              "line": "123",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\i2c.h"
-            },
-            "name": "AF",
             "origin": "user_include",
             "scope": "_anonymous_i2c_h_84_9::_anonymous_i2c_h_123_3"
           }
@@ -65904,20 +65904,6 @@
             "scope": "_anonymous_exti_h_8_1::_anonymous_exti_h_8_1"
           },
           {
-            "ID": "c:@UA@EXTIName_TypeDef@S@exti.h@182@FI@PIN9",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "PIN9",
-            "location": {
-              "column": "1",
-              "line": "8",
-              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\exti.h"
-            },
-            "name": "PIN9",
-            "origin": "user_include",
-            "scope": "_anonymous_exti_h_8_1::_anonymous_exti_h_8_1"
-          },
-          {
             "ID": "c:@UA@EXTIName_TypeDef@S@exti.h@182@FI@RTC_ALARM",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -65928,6 +65914,20 @@
               "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\exti.h"
             },
             "name": "RTC_ALARM",
+            "origin": "user_include",
+            "scope": "_anonymous_exti_h_8_1::_anonymous_exti_h_8_1"
+          },
+          {
+            "ID": "c:@UA@EXTIName_TypeDef@S@exti.h@182@FI@PIN9",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "PIN9",
+            "location": {
+              "column": "1",
+              "line": "8",
+              "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\exti.h"
+            },
+            "name": "PIN9",
             "origin": "user_include",
             "scope": "_anonymous_exti_h_8_1::_anonymous_exti_h_8_1"
           },
@@ -66361,20 +66361,6 @@
         "scope": "_anonymous_exti_h_41_1"
       },
       {
-        "ID": "c:@SA@EXTIName_BITBAND_TypeDef@FI@PIN9",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PIN9",
-        "location": {
-          "column": "1",
-          "line": "41",
-          "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\exti.h"
-        },
-        "name": "PIN9",
-        "origin": "user_include",
-        "scope": "_anonymous_exti_h_41_1"
-      },
-      {
         "ID": "c:@SA@EXTIName_BITBAND_TypeDef@FI@RTC_ALARM",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -66385,6 +66371,20 @@
           "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\exti.h"
         },
         "name": "RTC_ALARM",
+        "origin": "user_include",
+        "scope": "_anonymous_exti_h_41_1"
+      },
+      {
+        "ID": "c:@SA@EXTIName_BITBAND_TypeDef@FI@PIN9",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PIN9",
+        "location": {
+          "column": "1",
+          "line": "41",
+          "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\exti.h"
+        },
+        "name": "PIN9",
         "origin": "user_include",
         "scope": "_anonymous_exti_h_41_1"
       },
@@ -70029,20 +70029,6 @@
                 "scope": "_anonymous_pwr_h_7_9::_anonymous_pwr_h_9_3::_anonymous_pwr_h_9_3"
               },
               {
-                "ID": "c:@SA@PWR_TypeDef@U@pwr.h@192@S@pwr.h@192@FI@LPDS",
-                "What": "FieldDecl",
-                "defdec": "Def",
-                "display": "LPDS",
-                "location": {
-                  "column": "3",
-                  "line": "9",
-                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\pwr.h"
-                },
-                "name": "LPDS",
-                "origin": "user_include",
-                "scope": "_anonymous_pwr_h_7_9::_anonymous_pwr_h_9_3::_anonymous_pwr_h_9_3"
-              },
-              {
                 "ID": "c:@SA@PWR_TypeDef@U@pwr.h@192@FI@BITS",
                 "What": "FieldDecl",
                 "defdec": "Def",
@@ -70053,6 +70039,20 @@
                   "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\pwr.h"
                 },
                 "name": "BITS",
+                "origin": "user_include",
+                "scope": "_anonymous_pwr_h_7_9::_anonymous_pwr_h_9_3::_anonymous_pwr_h_9_3"
+              },
+              {
+                "ID": "c:@SA@PWR_TypeDef@U@pwr.h@192@S@pwr.h@192@FI@LPDS",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "LPDS",
+                "location": {
+                  "column": "3",
+                  "line": "9",
+                  "path": "E:\\STM32_IR_TRACKING_PROJECT\\include\\pwr.h"
+                },
+                "name": "LPDS",
                 "origin": "user_include",
                 "scope": "_anonymous_pwr_h_7_9::_anonymous_pwr_h_9_3::_anonymous_pwr_h_9_3"
               },

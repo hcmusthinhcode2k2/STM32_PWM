@@ -1,18 +1,17 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  28/Mar/2024  13:54:02
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  28/Mar/2024  14:33:59
 # Copyright 2007-2019 IAR Systems AB.
 #
-#    Output file  =  E:\STM32_USART\Debug\Exe\capture_ir.out
-#    Map file     =  E:\STM32_USART\Debug\List\capture_ir.map
+#    Output file  =  E:\STM32_PWM\Debug\Exe\capture_ir.out
+#    Map file     =  E:\STM32_PWM\Debug\List\capture_ir.map
 #    Command line =
-#        -f C:\Users\thinh\AppData\Local\Temp\EWAC0F.tmp
-#        (E:\STM32_USART\Debug\Obj\common.o
-#        E:\STM32_USART\Debug\Obj\cortex_m3.o E:\STM32_USART\Debug\Obj\gpio.o
-#        E:\STM32_USART\Debug\Obj\main.o
-#        E:\STM32_USART\Debug\Obj\startup_stm32f103cx.o --no_out_extension -o
-#        E:\STM32_USART\Debug\Exe\capture_ir.out --map
-#        E:\STM32_USART\Debug\List\capture_ir.map --config "C:\Program Files
+#        -f C:\Users\thinh\AppData\Local\Temp\EW3DE2.tmp
+#        (E:\STM32_PWM\Debug\Obj\common.o E:\STM32_PWM\Debug\Obj\cortex_m3.o
+#        E:\STM32_PWM\Debug\Obj\gpio.o E:\STM32_PWM\Debug\Obj\main.o
+#        E:\STM32_PWM\Debug\Obj\startup_stm32f103cx.o --no_out_extension -o
+#        E:\STM32_PWM\Debug\Exe\capture_ir.out --map
+#        E:\STM32_PWM\Debug\List\capture_ir.map --config "C:\Program Files
 #        (x86)\IAR Systems\Embedded Workbench
 #        8.3\arm\config\linker\ST\stm32f103x8.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
@@ -55,21 +54,18 @@ define block HEAP with size = 2K, alignment = 8 { };
   .intvec          ro code   0x800'0000    0xec  startup_stm32f103cx.o [1]
                            - 0x800'00ec    0xec
 
-"P1":                                     0x3c8
-  .text            ro code   0x800'00ec   0x230  main.o [1]
-  .text            ro code   0x800'031c    0x3a  zero_init3.o [3]
-  .text            ro code   0x800'0358    0x28  data_init.o [3]
-  .iar.init_table  const     0x800'0380    0x10  - Linker created -
-  .text            ro code   0x800'0390    0x1e  cmain.o [3]
-  .text            ro code   0x800'03ae     0x4  low_level_init.o [2]
-  .text            ro code   0x800'03b2     0x4  exit.o [2]
-  .text            ro code   0x800'03b8     0xa  cexit.o [3]
-  .text            ro code   0x800'03c4    0x14  exit.o [4]
-  .text            ro code   0x800'03d8     0xc  cstartup_M.o [3]
-  .text            ro code   0x800'03e4     0x8  startup_stm32f103cx.o [1]
-  .text            ro code   0x800'03ec     0x4  startup_stm32f103cx.o [1]
-  .text            ro code   0x800'03f0     0x4  startup_stm32f103cx.o [1]
-  .text            ro code   0x800'03f4     0x4  startup_stm32f103cx.o [1]
+"P1":                                     0x3d4
+  .text            ro code   0x800'00ec   0x23c  main.o [1]
+  .text            ro code   0x800'0328    0x3a  zero_init3.o [3]
+  .text            ro code   0x800'0364    0x28  data_init.o [3]
+  .iar.init_table  const     0x800'038c    0x10  - Linker created -
+  .text            ro code   0x800'039c    0x1e  cmain.o [3]
+  .text            ro code   0x800'03ba     0x4  low_level_init.o [2]
+  .text            ro code   0x800'03be     0x4  exit.o [2]
+  .text            ro code   0x800'03c4     0xa  cexit.o [3]
+  .text            ro code   0x800'03d0    0x14  exit.o [4]
+  .text            ro code   0x800'03e4     0xc  cstartup_M.o [3]
+  .text            ro code   0x800'03f0     0x8  startup_stm32f103cx.o [1]
   .text            ro code   0x800'03f8     0x4  startup_stm32f103cx.o [1]
   .text            ro code   0x800'03fc     0x4  startup_stm32f103cx.o [1]
   .text            ro code   0x800'0400     0x4  startup_stm32f103cx.o [1]
@@ -117,8 +113,11 @@ define block HEAP with size = 2K, alignment = 8 { };
   .text            ro code   0x800'04a8     0x4  startup_stm32f103cx.o [1]
   .text            ro code   0x800'04ac     0x4  startup_stm32f103cx.o [1]
   .text            ro code   0x800'04b0     0x4  startup_stm32f103cx.o [1]
-  .rodata          const     0x800'04b4     0x0  zero_init3.o [3]
-                           - 0x800'04b4   0x3c8
+  .text            ro code   0x800'04b4     0x4  startup_stm32f103cx.o [1]
+  .text            ro code   0x800'04b8     0x4  startup_stm32f103cx.o [1]
+  .text            ro code   0x800'04bc     0x4  startup_stm32f103cx.o [1]
+  .rodata          const     0x800'04c0     0x0  zero_init3.o [3]
+                           - 0x800'04c0   0x3d4
 
 "P2", part 1 of 2:                         0x2c
   .bss             zero     0x2000'0000    0x24  main.o [1]
@@ -370,7 +369,7 @@ Unused ranges:
 
          From           To    Size
          ----           --    ----
-   0x800'04b4   0x800'ffff  0xfb4c
+   0x800'04c0   0x800'ffff  0xfb40
   0x2000'002c  0x2000'002f     0x4
   0x2000'0830  0x2000'4fff  0x47d0
 
@@ -398,11 +397,11 @@ command line/config:
     ---------------------------------------------------------
     Total:
 
-E:\STM32_USART\Debug\Obj: [1]
-    main.o                     560                44   42'972
+E:\STM32_PWM\Debug\Obj: [1]
+    main.o                     572                44   42'972
     startup_stm32f103cx.o      444
     ---------------------------------------------------------
-    Total:                   1'004                44   42'972
+    Total:                   1'016                44   42'972
 
 dl7M_tln.a: [2]
     exit.o                       4
@@ -427,7 +426,7 @@ shb_l.a: [4]
     Gaps                         6
     Linker created                       16    2'048
 -------------------------------------------------------------
-    Grand Total:             1'188       16    2'092   42'972
+    Grand Total:             1'200       16    2'092   42'972
 
 
 *******************************************************************************
@@ -436,9 +435,9 @@ shb_l.a: [4]
 
 Entry                       Address    Size  Type      Object
 -----                       -------    ----  ----      ------
-.iar.init_table$$Base    0x800'0380           --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'0390           --   Gb  - Linker created -
-?main                    0x800'0391          Code  Gb  cmain.o [3]
+.iar.init_table$$Base    0x800'038c           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'039c           --   Gb  - Linker created -
+?main                    0x800'039d          Code  Gb  cmain.o [3]
 ADC1                    0x4001'2400    0x50  Data  Gb  main.o [1]
 ADC1_BITBAND            0x4224'8000   0x810  Data  Gb  main.o [1]
 ADC2                    0x4001'2800    0x50  Data  Gb  main.o [1]
@@ -479,8 +478,8 @@ RCC                     0x4002'1000    0x30  Data  Gb  main.o [1]
 RCC_BITBAND             0x4242'0000   0x600  Data  Gb  main.o [1]
 RTC                     0x4000'2800    0x28  Data  Gb  main.o [1]
 RTC_BITBAND             0x4205'0000   0x500  Data  Gb  main.o [1]
-Region$$Table$$Base      0x800'0380           --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'0390           --   Gb  - Linker created -
+Region$$Table$$Base      0x800'038c           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'039c           --   Gb  - Linker created -
 SCB_ACTLR               0xe000'e008     0x4  Data  Gb  main.o [1]
 SPI1                    0x4001'3000    0x24  Data  Gb  main.o [1]
 SPI1_BITBAND            0x4226'0000   0x290  Data  Gb  main.o [1]
@@ -505,28 +504,29 @@ UART2                   0x4000'4400    0x1c  Data  Gb  main.o [1]
 UART2_BITBAND           0x4208'8000   0x304  Data  Gb  main.o [1]
 UART3                   0x4000'4800    0x1c  Data  Gb  main.o [1]
 UART3_BITBAND           0x4209'0000   0x304  Data  Gb  main.o [1]
+UART_SendString          0x800'014b    0x1c  Code  Gb  main.o [1]
 WWDG                    0x4000'2c00     0xc  Data  Gb  main.o [1]
 WWDG_BITBAND            0x4205'8000   0x180  Data  Gb  main.o [1]
-__cmain                  0x800'0391          Code  Gb  cmain.o [3]
-__exit                   0x800'03c5    0x14  Code  Gb  exit.o [4]
-__iar_data_init3         0x800'0359    0x28  Code  Gb  data_init.o [3]
-__iar_program_start      0x800'03d9          Code  Gb  cstartup_M.o [3]
-__iar_zero_init3         0x800'031d    0x3a  Code  Gb  zero_init3.o [3]
-__low_level_init         0x800'03af     0x4  Code  Gb  low_level_init.o [2]
+__cmain                  0x800'039d          Code  Gb  cmain.o [3]
+__exit                   0x800'03d1    0x14  Code  Gb  exit.o [4]
+__iar_data_init3         0x800'0365    0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'03e5          Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'0329    0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'03bb     0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000          Data  Gb  startup_stm32f103cx.o [1]
-_call_main               0x800'039d          Code  Gb  cmain.o [3]
-_exit                    0x800'03b9          Code  Gb  cexit.o [3]
-_main                    0x800'03ab          Code  Gb  cmain.o [3]
-exit                     0x800'03b3     0x4  Code  Gb  exit.o [2]
-main                     0x800'014b   0x1b6  Code  Gb  main.o [1]
+_call_main               0x800'03a9          Code  Gb  cmain.o [3]
+_exit                    0x800'03c5          Code  Gb  cexit.o [3]
+_main                    0x800'03b7          Code  Gb  cmain.o [3]
+exit                     0x800'03bf     0x4  Code  Gb  exit.o [2]
+main                     0x800'0167   0x1a0  Code  Gb  main.o [1]
 
 
-[1] = E:\STM32_USART\Debug\Obj
+[1] = E:\STM32_PWM\Debug\Obj
 [2] = dl7M_tln.a
 [3] = rt7M_tl.a
 [4] = shb_l.a
 
-  1'188 bytes of readonly  code memory
+  1'200 bytes of readonly  code memory
      16 bytes of readonly  data memory
   2'092 bytes of readwrite data memory (+ 42'972 absolute)
 

@@ -68,7 +68,14 @@ void Delay_ms(unsigned long Time)
   while ((System.MsTime - now) < Time)
     BaseProcess();
 }
-
+void UART_SendString(const char* str)
+{
+    while (*str)
+    {
+        UART1.DR = *str++; // Gửi từng ký tự của chuỗi qua DR (Data Register)
+        while (!UART1.SR.BITS.TXE); // Chờ đến khi TXE (Transmit Data Register Empty) flag được set
+    }
+}
 void main()
 {
   *((unsigned long*)(0x40021000 + 0x18)) |= 0x04;       //bật clock cho GPIOA  
@@ -137,11 +144,7 @@ void main()
     BaseProcess();
     if (System.Event.RX)
     {
-      for (unsigned long i = 0; i < UART1_RX.Size; i++)
-      {
-        UART1.DR = UART1_RX.Buff[i];
-        while (!UART1.SR.BITS.TC);
-      }
+      UART_SendString("123"); // Gửi chuỗi "123" qua UART
       UART1_RX.Size = 0;
       System.Event.RX = 0;
     }
