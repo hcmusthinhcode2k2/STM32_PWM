@@ -1,2 +1,2 @@
-# STM32_PWM
- sử dụng smt32 và nền tản web để điều khiển LED 
+# STM32_DMA
+ sử dụng DMA kết hợp với stm32
