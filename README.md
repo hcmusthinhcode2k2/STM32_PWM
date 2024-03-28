@@ -1,2 +1,2 @@
-# STM32_DMA
- sử dụng DMA kết hợp với stm32
+# STM32_PWM
+điều chỉnh led bằng nodejs và PWM
